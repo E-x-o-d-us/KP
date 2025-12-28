@@ -1,0 +1,30 @@
+28.12.2025 18:02:07.868 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Запуск приложения
+28.12.2025 18:02:07.882 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Инициализация базы данных
+28.12.2025 18:02:08.072 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Таблица успешно создана или уже существует
+28.12.2025 18:02:08.868 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Главное окно инициализировано
+28.12.2025 18:02:19.359 [JavaFX Application Thread] INFO  c.m.KP.WorkerDao - Попытка удаления работника с id=3
+28.12.2025 18:02:19.366 [JavaFX Application Thread] INFO  c.m.KP.WorkerDao - Работник с id=3 успешно удалён
+28.12.2025 18:02:39.447 [JavaFX Application Thread] INFO  c.m.KP.WorkerDao - Работник сохранён, id=4
+28.12.2025 18:02:44.451 [JavaFX Application Thread] INFO  c.m.KP.WorkerDao - Поиск работников по подстроке: 'Буй'
+28.12.2025 18:02:48.831 [JavaFX Application Thread] INFO  c.m.KP.WorkerDao - Поиск работников по подстроке: 'прогр'
+28.12.2025 18:20:08.924 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Запуск приложения
+28.12.2025 18:20:08.928 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Инициализация базы данных
+28.12.2025 18:20:09.119 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Таблица успешно создана или уже существует
+28.12.2025 18:20:09.119 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Главное окно инициализировано
+28.12.2025 18:20:27.864 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Запуск приложения
+28.12.2025 18:20:27.869 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Инициализация базы данных
+28.12.2025 18:20:28.059 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Таблица успешно создана или уже существует
+28.12.2025 18:20:28.859 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Главное окно инициализировано
+28.12.2025 18:27:18.013 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Запуск приложения
+28.12.2025 18:27:18.017 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Инициализация базы данных
+28.12.2025 18:27:18.223 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Таблица успешно создана или уже существует
+28.12.2025 18:27:19.159 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Главное окно инициализировано
+28.12.2025 20:09:05.262 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Запуск приложения
+28.12.2025 20:09:05.268 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Инициализация базы данных
+28.12.2025 20:09:05.514 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Таблица успешно создана или уже существует
+28.12.2025 20:09:06.421 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Главное окно инициализировано
+28.12.2025 20:12:48.376 [JavaFX Application Thread] INFO  c.m.KP.WorkerDao - Работник сохранён, id=5
+28.12.2025 20:15:36.655 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Запуск приложения
+28.12.2025 20:15:36.660 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Инициализация базы данных
+28.12.2025 20:15:36.854 [JavaFX Application Thread] INFO  com.mivlgu.KP.dbCon - Таблица успешно создана или уже существует
+28.12.2025 20:15:37.786 [JavaFX Application Thread] INFO  c.m.K.LabApplication - Главное окно инициализировано

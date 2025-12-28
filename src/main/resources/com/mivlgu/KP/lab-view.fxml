@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mivlgu.KP.LabController">
+
+    <children>
+        <SplitPane dividerPositions="0.3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+
+            <items>
+
+                <!-- Левая панель -->
+                <AnchorPane styleClass="left-panel">
+
+                    <children>
+                        <Button onAction="#onAdd" text="%btn.add" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+
+                        <Button onAction="#onEdit" text="%btn.edit" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0" />
+
+                        <Button fx:id="buttonDelete" onAction="#onClickDelete" text="%btn.delete" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0" />
+
+                        <Label fx:id="lblLog" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="95.0" />
+
+                        <Label text="%lbl.search" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="165.0" />
+
+                        <TextField fx:id="searchField" promptText="%tf.search.prompt" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="185.0" />
+
+                        <Button onAction="#onClickSearch" text="%btn.search" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="220.0" />
+
+                        <Button onAction="#onClickSbros" text="%btn.reset" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="250.0" />
+
+                        <Button onAction="#onExit" text="%btn.exit" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                  <ChoiceBox fx:id="languageBox" layoutX="13.0" layoutY="331.0" prefWidth="150.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+                    </children>
+                </AnchorPane>
+
+                <!-- Правая панель -->
+                <AnchorPane>
+
+                    <children>
+                        <TableView fx:id="workerTable" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+
+                            <columns>
+                                <TableColumn fx:id="idColumn" text="%table.id" />
+                                <TableColumn fx:id="surnameColumn" text="%table.surname" />
+                                <TableColumn fx:id="nameColumn" text="%table.name" />
+                                <TableColumn fx:id="lastNameColumn" text="%table.lastname" />
+                                <TableColumn fx:id="ageColumn" text="%table.age" />
+                                <TableColumn fx:id="cityColumn" text="%table.city" />
+                                <TableColumn fx:id="positionColumn" text="%table.position" />
+                            </columns>
+
+                            <columnResizePolicy>
+                                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                            </columnResizePolicy>
+
+                        </TableView>
+                    </children>
+                </AnchorPane>
+
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

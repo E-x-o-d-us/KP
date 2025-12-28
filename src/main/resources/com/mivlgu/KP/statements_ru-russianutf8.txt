@@ -1,0 +1,27 @@
+btn.add=Добавить
+btn.edit=Редактировать
+btn.delete=Удалить
+btn.search=Показать
+btn.reset=Сброс
+btn.exit=Выход
+
+lbl.search=Поиск
+tf.search.prompt=Введите фамилию или должность
+
+table.id=ID
+table.surname=Фамилия
+table.name=Имя
+table.lastname=Отчество
+table.age=Возраст
+table.city=Город
+table.position=Должность
+
+lbl.surname=Фамилия
+lbl.name=Имя
+lbl.lastname=Отчество
+lbl.age=Возраст
+lbl.city=Город
+lbl.position=Должность
+
+btn.ok=ОК
+btn.cancel=Отмена

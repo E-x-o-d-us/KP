@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane
+        prefHeight="400.0"
+        prefWidth="600.0"
+        xmlns="http://javafx.com/javafx/17.0.12"
+        xmlns:fx="http://javafx.com/fxml/1"
+        fx:controller="com.mivlgu.KP.NewWorkerController">
+
+    <children>
+        <VBox
+                spacing="6.0"
+                AnchorPane.topAnchor="0.0"
+                AnchorPane.bottomAnchor="0.0"
+                AnchorPane.leftAnchor="0.0"
+                AnchorPane.rightAnchor="0.0">
+
+            <children>
+
+                <Label text="%lbl.surname"/>
+                <TextField fx:id="tfSurname"/>
+
+                <Label text="%lbl.name"/>
+                <TextField fx:id="tfName"/>
+
+                <Label text="%lbl.lastname"/>
+                <TextField fx:id="tfLastname"/>
+
+                <Label text="%lbl.age"/>
+                <TextField fx:id="tfAge"/>
+
+                <Label text="%lbl.city"/>
+                <TextField fx:id="tfCity"/>
+
+                <Label text="%lbl.position"/>
+                <TextField fx:id="tfPosition"/>
+
+                <HBox spacing="10.0" alignment="CENTER_RIGHT">
+                    <children>
+                        <Button
+                                text="%btn.ok"
+                                onAction="#onClickOk"/>
+                        <Button
+                                text="%btn.cancel"
+                                onAction="#onClickCancel"/>
+                    </children>
+                </HBox>
+
+            </children>
+
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>
